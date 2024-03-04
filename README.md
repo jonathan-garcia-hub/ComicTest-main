@@ -1,16 +1,17 @@
-# peliculas
+# comics
 
-Proyecto test de Flutter. App de Peliculas
+Proyecto test de Flutter. App de Comics
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Se elaboró utilizando Flutter SDK 3.0.5.
 
-A few resources to get you started if this is your first Flutter project:
+Para contruir la aplicación en entorno de desarrollo:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clonar el repositorio.
+Obtener dependencias.
+Ejecutar aplicación.
+Para generar APK para Android, ejecutar los siguientes comandos:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter clean
+flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
